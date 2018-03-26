@@ -23,6 +23,6 @@ for infile in csv_files:
 				line = line.strip()
 				total_characters.append(line)
 total = ((concatenate_list_data(total_characters)))
+
 print len(total)
-print total[0:10]
 
